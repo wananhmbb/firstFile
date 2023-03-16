@@ -1,0 +1,30 @@
+.dark {
+  /* 主题色 */
+  --theme-color-dark-blue: #4381cf;
+  --theme-color-linear: linear-gradient(90deg, #4d9af3 0%, #4381cf 100%);
+  --theme-color-dark-purple: #5568E8;
+  /* 背景颜色 */
+  --bg-color-main: #090909;
+  --bg-color-second: #141414;
+  --bg-color-home: #090909;
+  --bg-color-secondhome: #141414;
+  --bg-color-blue: rgba(67, 129, 207, 0.15);
+  --bg-color-grey: rgba(128, 128, 128, 0.3);
+  --bg-chart: #0f151d;
+  --bg-color-opacity01: #191f27;
+  --bg-color-calendar:rgba(249, 249, 249, 0.017);
+  
+  --bg-color-pink:#FEE9EE;
+  --bg-color-purple:#E7E8FC;
+  /* 边框颜色 */
+  --bd-color-main: #181818;
+
+  /* 字体颜色 */
+  --text-color-main: #fefefe;
+  --text-color-yellow: #d6b861;
+  --text-color-white: #ffffff;
+  --text-color-grey: #828282;
+  
+  --text-color-purple:#5D6CCB;
+    --text-color-pink:#E27D9C;
+}

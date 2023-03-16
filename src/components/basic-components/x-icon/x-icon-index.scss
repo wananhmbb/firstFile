@@ -1,0 +1,72 @@
+$base-url: "https://s4.ax1x.com/";
+
+.x-icon {
+  width: 55rpx;
+  height: 55rpx;
+  // background-image: url(map-get($iconSpriteUrl, "iconNormalSpritePath"));
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline-block;
+
+  &.active {
+    //   background-image: url(map-get($iconSpriteUrl, "iconActiveSpritePath"));
+  }
+
+  &.add {
+    background-position: 0 0;
+  }
+
+  &.update {
+    background-position: -36px 0px;
+  }
+}
+.motion {
+  width: 96rpx;
+  height: 96rpx;
+  background-image: url(https://hjt20220307.oss-cn-chengdu.aliyuncs.com/icons/xiconyundong.png);
+}
+.psychology {
+  width: 96rpx;
+  height: 96rpx;
+  background-image: url(https://hjt20220307.oss-cn-chengdu.aliyuncs.com/icons/xiconxinli.png);
+}
+.utrition {
+  width: 96rpx;
+  height: 96rpx;
+  background-image: url(https://hjt20220307.oss-cn-chengdu.aliyuncs.com/icons/xiconyingyang.png);
+}
+.Shopping-mall {
+  width: 96rpx;
+  height: 96rpx;
+  background-image: url(https://hjt20220307.oss-cn-chengdu.aliyuncs.com/icons/xiconshop.png);
+}
+.Self-evaluation {
+  width: 96rpx;
+  height: 96rpx;
+  background-image: url(https://hjt20220307.oss-cn-chengdu.aliyuncs.com/icons/xiconselftest.png);
+}
+.old-age-cognition {
+  width: 96rpx;
+  height: 96rpx;
+  background-image: url(https://hjt20220307.oss-cn-chengdu.aliyuncs.com/icons/xiconoldrenz.png);
+}
+.sleep {
+  width: 96rpx;
+  height: 96rpx;
+  background-image: url(https://hjt20220307.oss-cn-chengdu.aliyuncs.com/icons/xiconshuimian.png);
+}
+.more {
+  width: 96rpx;
+  height: 96rpx;
+  background-image: url(https://hjt20220307.oss-cn-chengdu.aliyuncs.com/icons/xiconmore.png);
+}
+.chronic-disease{
+  width: 96rpx;
+  height: 96rpx;
+  background-image: url(https://hjt20220307.oss-cn-chengdu.aliyuncs.com/icons/xiconmanbing.png);
+}
+.heartbeat{
+  width: 96rpx;
+  height: 96rpx;
+  background-image: url(https://hjt20220307.oss-cn-chengdu.aliyuncs.com/icons/xiconxindong.png);
+}

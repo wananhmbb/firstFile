@@ -1,0 +1,926 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/homeIndex",
+			"aliasPath": "/homeIndex",
+			"name": "homeIndex",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医"
+			}
+		},
+
+		{
+			"path": "pages/residentInstitution/index",
+			"aliasPath": "/residentInstitution",
+			"name": "residentInstitution",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医"
+			}
+		},
+		{
+			"path": "pages/tabbar/index/index",
+			"aliasPath": "/index",
+			"name": "index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医"
+			}
+		},
+		{
+			"path": "pages/residentInstitution/searchOrganization/index",
+			"aliasPath": "/searchOrganization",
+			"name": "searchOrganization",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医"
+			}
+		},
+		{
+			"path": "pages/tabbar/service/index",
+			"aliasPath": "/service",
+			"name": "service",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医"
+			}
+		},
+		{
+			"path": "pages/tabbar/my/index",
+			"aliasPath": "/my",
+			"name": "my",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医"
+			}
+		},
+		{
+			"path": "pages/tabbar/consult/index",
+			"aliasPath": "/consult",
+			"name": "consult",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"aliasPath": "/login",
+			"name": "login",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/no-data/no-data",
+			"aliasPath": "/noData",
+			"name": "noData",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医"
+			}
+		},
+		{
+			"path": "pages/freeHealthEducation/index",
+			"aliasPath": "/freeHealthEducation",
+			"name": "freeHealthEducation",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医"
+			}
+		},
+		{
+			"path": "pages/goWeChatOfficialAccount/index",
+			"aliasPath": "/goWeChatOfficialAccount",
+			"name": "goWeChatOfficialAccount",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医"
+			}
+		},
+		{
+			"path": "pages/login/wx-register-phone",
+			"aliasPath": "/wxRegisterPhone",
+			"name": "wxRegisterPhone",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/shopping-mall/goods_details/index",
+			"aliasPath": "/goodsDetails",
+			"name": "goodsDetails",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医"
+			}
+		},
+		{
+			"path": "pages/shopping-mall/user_address/index",
+			"aliasPath": "/userAddress",
+			"name": "userAddress",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/shopping-mall/user_address_list/index",
+			"aliasPath": "/userAddressList",
+			"name": "userAddressList",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/shopping-mall/order_confirm/order_confirm",
+			"aliasPath": "/orderConfirm",
+			"name": "orderConfirm",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/shopping-mall/remark/index",
+			"aliasPath": "/remark",
+			"name": "remark",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/shopping-mall/order_list/index",
+			"aliasPath": "/orderList",
+			"name": "orderList",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/shopping-mall/order_details/index",
+			"aliasPath": "/orderDetails",
+			"name": "orderDetails",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/shopping-mall/goods_list/index",
+			"aliasPath": "/goodsList",
+			"name": "goodsList",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/shopping-mall/goods-Invoicing/index",
+			"aliasPath": "/goodsInvoicing",
+			"name": "goodsInvoicing",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/shopping-mall/index-shopping-mall/goods_list/index",
+			"aliasPath": "/shoppingGoodsList",
+			"name": "shoppingGoodsList",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医"
+			}
+		},
+		{
+			"path": "pages/shopping-mall/index-shopping-mall/goods_details/index",
+			"aliasPath": "/shoppingGoodsDetails",
+			"name": "shoppingGoodsDetails",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医"
+			}
+		},
+		{
+			"path": "pages/shopping-mall/index-shopping-mall/order_confirm/order_confirm",
+			"aliasPath": "/shoppingOrderConfirm",
+			"name": "shoppingOrderConfirm",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医"
+			}
+		},
+		{
+			"path": "pages/shopping-mall/view-logistics/index",
+			"aliasPath": "/viewLogistics",
+			"name": "viewLogistics",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/shopping-mall/refund/index",
+			"aliasPath": "/refund",
+			"name": "refund",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "核联医",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"subPackages": [
+		{
+			"root": "home-sub-pages",
+			"pages": [
+				{
+					"path": "pages/team-details/team-details",
+					"aliasPath": "/teamDetails",
+					"name": "teamDetails",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/vajra-district/psychology/index",
+					"aliasPath": "/VajraPsychology",
+					"name": "VajraPsychology",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/vajra-district/nutrition/index",
+					"aliasPath": "/VajraNutrition",
+					"name": "VajraNutrition",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/vajra-district/nutrition/nutrition-view",
+					"aliasPath": "/VajraNutritionView",
+					"name": "VajraNutritionView",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/vajra-district/cognition/index",
+					"aliasPath": "/VajraCognition",
+					"name": "VajraCognition",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/vajra-district/cognition/to-web-view",
+					"aliasPath": "/VajraToWebView",
+					"name": "VajraToWebView",
+					"style": {
+
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医",
+						"enablePullDownRefresh": false,
+						"pageOrientation": "auto"
+					}
+				},
+				{
+					"path": "pages/vajra-district/sleep/index",
+					"aliasPath": "/vajraDistrictSleep",
+					"name": "vajraDistrictSleep",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/vajra-district/sleep/sleepVideo",
+					"aliasPath": "/sleepVideo",
+					"name": "sleepVideo",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/audioPlay/index",
+					"aliasPath": "/audioPlay",
+					"name": "audioPlay",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/changeTenant/index",
+					"aliasPath": "/changeTenant",
+					"name": "changeTenant",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/vajra-district/vajra-district-details",
+					"aliasPath": "/vajraDistrictDetails",
+					"name": "vajraDistrictDetails",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/healthyTest/index",
+					"aliasPath": "/healthyTest",
+					"name": "healthyTest",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医",
+						"enablePullDownRefresh": false,
+						"onReachBottomDistance": 100
+					}
+		
+				},
+				{
+		
+					"path": "pages/healthyTest/details/index",
+					"aliasPath": "/healthyTestDetails",
+					"name": "healthyTestDetails",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/healthyTest/details/sitAndReach",
+					"aliasPath": "/sitAndReach",
+					"name": "sitAndReach",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医",
+						"enablePullDownRefresh": false
+					}
+		
+				},
+				{
+					"path": "pages/healthyTest/details/squatAgainstTheWall",
+					"aliasPath": "/squatAgainstTheWall",
+					"name": "squatAgainstTheWall",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医",
+						"enablePullDownRefresh": false
+					}
+		
+				},
+				{
+					"path": "pages/healthyTest/details/quietHeartRate",
+					"aliasPath": "/quietHeartRate",
+					"name": "quietHeartRate",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医",
+						"enablePullDownRefresh": false
+					}
+		
+				},
+				{
+					"path": "pages/healthyTest/details/twoMinuteStep",
+					"aliasPath": "/twoMinuteStep",
+					"name": "twoMinuteStep",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医",
+						"enablePullDownRefresh": false
+					}
+		
+				},
+				{
+					"path": "pages/healthyTest/details/oneLegStandingBalance",
+					"aliasPath": "/oneLegStandingBalance",
+					"name": "oneLegStandingBalance",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医",
+						"enablePullDownRefresh": false
+					}
+		
+				},
+				{
+					"path": "pages/healthyTest/basic-health-questionnaire/question-details",
+					"aliasPath": "/basicHealthQuestionnaire",
+					"name": "basicHealthQuestionnaire",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医",
+						"enablePullDownRefresh": false
+					}
+				}
+
+			]
+		},
+		{
+			"root": "service-sub-pages",
+			"pages": [
+				{
+					"path": "pages/servicePackQuestionnaire/gaugePage",
+					"aliasPath": "/servicePackQuestionnaire",
+					"name": "servicePackQuestionnaire",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/myPrescription/sportPrescription/exercisePrescriptionDetails",
+					"aliasPath": "/exercisePrescriptionDetails",
+					"name": "exercisePrescriptionDetails",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/myPrescription/sportPrescription/keyPointsOfExercise",
+					"aliasPath": "/keyPointsOfExercise",
+					"name": "keyPointsOfExercise",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/myPrescription/sportPrescription/connectingBluetooth",
+					"aliasPath": "/connectingBluetooth",
+					"name": "connectingBluetooth",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/myPrescription/sportPrescription/videoPage",
+					"aliasPath": "/videoPage",
+					"name": "videoPage",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/myPrescription/sportPrescription/TestH5",
+					"aliasPath": "/TestH5",
+					"name": "TestH5",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/myPrescription/nutritionalPrescription/index",
+					"aliasPath": "/nutritionalPrescription",
+					"name": "nutritionalPrescription",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/myPrescription/CbtiPrescriptionDetsils/index",
+					"aliasPath": "/CbtiPrescriptionDetsils",
+					"name": "CbtiPrescriptionDetsils",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/myPrescription/rehabilitationPrescription/index",
+					"aliasPath": "/rehabilitationPrescription",
+					"name": "rehabilitationPrescription",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/myPrescription/index",
+					"aliasPath": "/myPrescription",
+					"name": "myPrescription",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/myPrescription/feedback",
+					"aliasPath": "/feedback",
+					"name": "feedback",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/myFile/createFile",
+					"aliasPath": "/createFile",
+					"name": "createFile",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/healthMonitoring/index",
+					"aliasPath": "/healthMonitoring",
+					"name": "healthMonitoring",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/healthMonitoring/details",
+					"aliasPath": "/healthMonitoringDetails",
+					"name": "healthMonitoringDetails",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "pages/followUpAppointment/index",
+					"aliasPath": "/followUpAppointment",
+					"name": "followUpAppointment",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/followUpAppointment/subscribe",
+					"aliasPath": "/subscribe",
+					"name": "subscribe",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/evaluationQuestionnaire/index",
+					"aliasPath": "/evaluationQuestionnaire",
+					"name": "evaluationQuestionnaire",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/evaluationQuestionnaire/questionnaireDetails",
+					"aliasPath": "/questionnaireDetails",
+					"name": "questionnaireDetails",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/evaluationQuestionnaire/gaugePage",
+					"aliasPath": "/gaugePage",
+					"name": "gaugePage",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/evaluationQuestionnaire/oldSurveyH5",
+					"aliasPath": "/oldSurveyH5",
+					"name": "oldSurveyH5",
+					"style": {
+						"pageOrientation": "landscape",
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/evaluationQuestionnaire/adviceDetails",
+					"aliasPath": "/adviceDetails",
+					"name": "adviceDetails",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/evaluationQuestionnaire/historicalReport",
+					"aliasPath": "/historicalReport",
+					"name": "historicalReport",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/healthEducation/index",
+					"aliasPath": "/healthEducation",
+					"name": "healthEducation",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/healthEducation/details",
+					"aliasPath": "/healthEducationDetails",
+					"name": "healthEducationDetails",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				}	
+
+			]
+		},
+		{
+			"root": "my-sub-pages",
+			"pages": [
+				{
+					"path": "pages/system_setting/system-setting",
+					"aliasPath": "/systemSetting",
+					"name": "systemSetting",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/my-coupon/index",
+					"aliasPath": "/my-coupon",
+					"name": "myCoupon",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/my-equipment/index",
+					"aliasPath": "/my-equipment",
+					"name": "myEquipment",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/my-equipment/addDevice",
+					"aliasPath": "/myequipmentAddDevice",
+					"name": "myequipmentAddDevice",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/my-equipment/equipmentDetails",
+					"aliasPath": "/myEquipmentDetails",
+					"name": "myEquipmentDetails",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/my-equipment/detailsPage",
+					"aliasPath": "/equipmentDetailsPage",
+					"name": "equipmentDetailsPage",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/frequently-asked/index",
+					"aliasPath": "/frequentlyAsked",
+					"name": "frequentlyAsked",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/frequently-asked/detail",
+					"aliasPath": "/frequentlyAskedDetail",
+					"name": "frequentlyAskedDetail",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/complaints-suggestions/feedbackDetails",
+					"aliasPath": "/feedbackDetails",
+					"name": "feedbackDetails",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/complaints-suggestions/index",
+					"aliasPath": "/complaintsSuggestions",
+					"name": "complaintsSuggestions",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/personal_info/personal-info",
+					"aliasPath": "/personalInfo",
+					"name": "personalInfo",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/consult/createConsultation/index",
+					"aliasPath": "/createConsultation",
+					"name": "createConsultation",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": ""
+					}
+				},
+				{
+					"path": "pages/consult/chat/index",
+					"aliasPath": "/chat",
+					"name": "chat",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "",
+						"app-plus": {
+							"scrollIndicator": "none" 
+						}
+					}
+
+				},
+				{
+					"path": "pages/consult/chat/basic-info",
+					"aliasPath": "/consultChatBasicInfo",
+					"name": "consultChatBasicInfo",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/consult/chat/doctorDetails",
+					"aliasPath": "/consultChatdoctorDetails",
+					"name": "consultChatdoctorDetails",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				}
+			]
+		},
+		{
+			"root": "other-pages",
+			"pages": [
+				{
+					"path": "pages/profile/profile",
+					"aliasPath": "/profile",
+					"name": "profile",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/examinationAppointment/examinationAppointment",
+					"aliasPath": "/examinationAppointment",
+					"name": "examinationAppointment",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/hospitalProfile/hospitalProfile",
+					"aliasPath": "/hospitalProfile",
+					"name": "hospitalProfile",
+					"style": {
+					    "navigationStyle": "custom",
+					    "navigationBarTitleText": "核联医"
+					}
+				},
+
+				{
+					"path": "pages/improve-page/index",
+					"aliasPath": "/improvePage",
+					"name": "improvePage",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/report-interpretation/index",
+					"aliasPath": "/reportInterpretation",
+					"name": "reportInterpretation",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/upload-report/index",
+					"aliasPath": "/uploadReport",
+					"name": "uploadReport",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				},
+				{
+					"path": "pages/read-report/index",
+					"aliasPath": "/readReport",
+					"name": "readReport",
+					"style": {
+						"navigationStyle": "custom",
+						"navigationBarTitleText": "核联医"
+					}
+				}
+			]
+		}
+
+	],
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#000000",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/tabbar/index/index",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabbar/service/index",
+				"text": "服务"
+			},
+			{
+				"pagePath": "pages/tabbar/my/index",
+				"text": "我的"
+			}
+
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "核联医",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

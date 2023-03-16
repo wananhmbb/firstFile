@@ -1,0 +1,18 @@
+$base-url: "https://s4.ax1x.com/";
+// @import url("@utils/basic-image-path/no-server.js");
+//未购买服务包
+.service-pack-not-purchased {
+  width: 60vw;
+  height: 500rpx;
+  // background-position:center;
+  background-size: 100% auto;
+  background-image: url(https://dailydev.oss-cn-chengdu.aliyuncs.com/416/image-icon/no-server-package.png);
+}
+//没有数据
+.service-no-data {
+  width: 60vw;
+  height: 500rpx;
+  // background-position:center;
+  background-size: 100% auto;
+  background-image: url(https://dailydev.oss-cn-chengdu.aliyuncs.com/416/image-icon/no-data.png);
+}

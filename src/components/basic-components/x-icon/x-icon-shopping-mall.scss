@@ -1,0 +1,53 @@
+$base-url: "https://s4.ax1x.com/";
+
+.noAddress {
+  width: 414rpx;
+  height: 330rpx;
+  background-image: url($base-url + "2022/02/17/H46NKs.png");
+}
+//敬请期待
+.noShopper {
+  width: 60vw;
+  height: 500rpx;
+  // background-position:center;
+  background-size: 100% auto;
+  background-image: url(https://dailydev.oss-cn-chengdu.aliyuncs.com/416/image-icon/no-data.png);
+//  &.default-theme{
+//}
+//  &.dark-theme {
+//    background-image: url('https://hjt20220307.oss-cn-chengdu.aliyuncs.com/darkIpImage/lookForward.png');
+//  }
+}
+.stop {
+  width: 136rpx;
+  height: 136rpx;
+  background-image: url($base-url + "2022/02/17/H4gv8S.png");
+}
+.noCart {
+  width: 80vw;
+  height: 336rpx;
+  background-image: url($base-url + "2022/02/17/H4RisH.png");
+}
+.noCoupon {
+  width: 414rpx;
+  height: 336rpx;
+  background-image: url($base-url + "2022/02/17/H4RmJf.png");
+}
+.red-packets {
+  width: 187rpx;
+  height: 210rpx;
+  background-image: url($base-url + "2022/02/17/H4IYk9.png");
+}
+.xiugai-icon {
+  width: 36rpx;
+  height: 36rpx;
+  background-image: url($base-url + "2022/02/22/HxoTyV.png");
+}
+//没有订单图片
+.no-order {
+  width: 60vw;
+  height: 500rpx;
+  // background-position:center;
+  background-size: 100% auto;
+  background-image: url(https://dailydev.oss-cn-chengdu.aliyuncs.com/416/image-icon/no-order.png);
+}

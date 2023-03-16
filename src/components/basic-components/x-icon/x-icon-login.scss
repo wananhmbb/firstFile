@@ -1,0 +1,16 @@
+$base-url:'https://s4.ax1x.com/';
+
+
+.logo {
+    width: 180rpx;
+    height: 180rpx;
+    background-image: url('https://dailydev.oss-cn-chengdu.aliyuncs.com/416/wxapp/logo.png');
+}
+
+.registe {
+    width: 30rpx !important;
+    height: 30rpx !important;
+    margin: auto 0;
+    background-image: url($base-url + '2022/02/23/b9XvZj.png');
+
+}
